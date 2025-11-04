@@ -57,24 +57,27 @@ Ultimately, PCIA aims to cover SDLC requirements related to:
 
 ## 🏗 Architecture Overview
 
-┌─────────────────────┐
-│ Jira Cloud │
-│ Issue Type: Change │
-└─────────┬───────────┘
-│
-│ Automation Trigger (on “Deployed”)
-▼
-┌────────────────────────┐
-│ Confluence Cloud │
-│ Template: Usage Guide │
-│ Auto-Update via REST │
-└─────────┬──────────────┘
-│
-▼
-┌────────────────────────┐
-│ Power BI / Dashboard │
-│ Trend Analysis (ETL) │
-└────────────────────────┘
+## 🏗 Architecture Overview
+
+```text
+   ┌─────────────────────┐
+   │     Jira Cloud      │
+   │  Issue Type: Change │
+   └─────────┬───────────┘
+             │
+             │ Automation Trigger (on “Deployed”)
+             ▼
+   ┌────────────────────────┐
+   │   Confluence Cloud     │
+   │  Template: Usage Guide │
+   │  Auto-Update via REST  │
+   └─────────┬──────────────┘
+             │
+             ▼
+   ┌────────────────────────┐
+   │ Power BI / Dashboard   │
+   │ Trend Analysis (ETL)   │
+   └────────────────────────┘
 
 ---
 
@@ -92,19 +95,20 @@ Ultimately, PCIA aims to cover SDLC requirements related to:
 
 ## 📁 Repository Structure
 
+```
 📦 process-change-impact-automation
-┣ 📜 README.md
-┣ 📂 docs
-┃ ┣ BRD.md
-┃ ┣ FRD.md
-┃ ┣ UseCases.md
-┃ ┗ ArchitectureDiagram.png
-┣ 📂 templates
-┃ ┗ ConfluenceTemplate.md
-┣ 📂 automation-scripts
-┃ ┗ jira-confluence-automation.json
-┗ 📂 demo-data
-┗ sample-jira-issues.csv
+ ┣ 📜 README.md
+ ┣ 📂 docs
+ ┃ ┣ BRD.md
+ ┃ ┣ FRD.md
+ ┃ ┣ UseCases.md
+ ┃ ┗ ArchitectureDiagram.png
+ ┣ 📂 templates
+ ┃ ┗ ConfluenceTemplate.md
+ ┣ 📂 automation-scripts
+ ┃ ┗ jira-confluence-automation.json
+ ┗ 📂 demo-data
+   ┗ sample-jira-issues.csv
 
 
 ---
