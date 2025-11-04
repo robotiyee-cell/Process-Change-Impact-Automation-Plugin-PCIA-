@@ -56,6 +56,7 @@ Ultimately, PCIA aims to cover SDLC requirements related to:
 ---
 
 ## 🏗 Architecture Overview
+
 ┌─────────────────────┐
 │ Jira Cloud │
 │ Issue Type: Change │
@@ -90,6 +91,7 @@ Ultimately, PCIA aims to cover SDLC requirements related to:
 ---
 
 ## 📁 Repository Structure
+
 📦 process-change-impact-automation
 ┣ 📜 README.md
 ┣ 📂 docs
