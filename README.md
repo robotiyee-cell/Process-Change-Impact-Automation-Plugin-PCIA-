@@ -57,8 +57,6 @@ Ultimately, PCIA aims to cover SDLC requirements related to:
 
 ## 🏗 Architecture Overview
 
-## 🏗 Architecture Overview
-
 ```text
    ┌─────────────────────┐
    │     Jira Cloud      │
@@ -95,7 +93,7 @@ Ultimately, PCIA aims to cover SDLC requirements related to:
 
 ## 📁 Repository Structure
 
-```
+```text
 📦 process-change-impact-automation
  ┣ 📜 README.md
  ┣ 📂 docs
@@ -109,7 +107,6 @@ Ultimately, PCIA aims to cover SDLC requirements related to:
  ┃ ┗ jira-confluence-automation.json
  ┗ 📂 demo-data
    ┗ sample-jira-issues.csv
-
 
 ---
 
